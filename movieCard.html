@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Details</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa; /* Light gray background color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      max-width: 800px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .movie-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .movie-poster {
+      margin-top: 20px; /* Added margin top */
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    .movie-poster img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .movie-details {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .movie-details h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .movie-details p {
+      margin: 5px 0;
+      color: #666;
+    }
+    .movie-details p strong {
+      color: #333;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+    }
+    .button {
+      padding: 10px 20px;
+      background-color: #007bff; /* Blue button color */
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="movie-card">
+      <div class="movie-poster">
+        <img src="https://m.media-amazon.com/images/M/MV5BYWE1NTdjOWQtYTQ2Ny00Nzc5LWExYzMtNmRlOThmOTE2N2I4XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg" alt="Movie Poster">
+      </div>
+      <div class="movie-details">
+        <h2>The Avengers</h2>
+        <p><strong>Year:</strong> 1998</p>
+        <p><strong>Rated:</strong> PG-13</p>
+        <p><strong>Released:</strong> 14 Aug 1998</p>
+        <p><strong>Runtime:</strong> 89 min</p>
+        <p><strong>Genre:</strong> Action, Adventure, Sci-Fi</p>
+        <p><strong>Director:</strong> Jeremiah S. Chechik</p>
+        <p><strong>Writer:</strong> Sydney Newman, Don MacPherson</p>
+        <p><strong>Actors:</strong> Ralph Fiennes, Uma Thurman, Sean Connery</p>
+        <p><strong>Plot:</strong> Two British Agents team up to stop Sir August de Wynter from destroying the world with a weather-changing machine.</p>
+        <p><strong>Language:</strong> English</p>
+        <p><strong>Country:</strong> United States</p>
+        <p><strong>Awards:</strong> 4 wins & 17 nominations</p>
+        <p><strong>IMDb Rating:</strong> 3.8/10</p>
+        <p><strong>Rotten Tomatoes:</strong> 5%</p>
+        <p><strong>Metacritic:</strong> 12/100</p>
+      </div>
+      <div class="button-container">
+        <button class="button">Add to Favorite</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
